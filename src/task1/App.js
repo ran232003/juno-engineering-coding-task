@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { fetchImages } from '../api';
 import logo from '../logo.svg';
+import Test from '../task2/ecommerce';
 import './App.css';
 import ImageCarousel from "./ImageCarousel";
 
@@ -17,6 +18,7 @@ function App() {
   },[])
   return (
       <div>
+        <Test/>
         <ImageCarousel 
        imageArray = {array}
         />

@@ -121,7 +121,7 @@ function setTimeoutPromise(timeout, values) {
 
 export function fetchOrderById(id) {
     //use it to fetch single order by Id . do not change this function
-    return setTimeoutPromise(200, {
+    return setTimeoutPromise(1, {
         id,
         userId: usersIds[Math.floor(Math.random() * usersIds.length - 0.000001)],
         timestamp:
